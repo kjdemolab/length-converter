@@ -45,6 +45,27 @@ export default function App() {
   }
 
   return (
+    <>
+    {/* 🚀 Floating Back Button */}
+    <a href="https://kjdemolab.site"
+       title="Back to KJ Demo Lab"
+       style={{
+         position: "fixed",
+         bottom: "20px",
+         right: "20px",
+         backgroundColor: "#7f5af0",
+         color: "white",
+         padding: "10px 14px",
+         borderRadius: "30px",
+         fontWeight: "bold",
+         fontSize: "14px",
+         textDecoration: "none",
+         boxShadow: "0 4px 10px rgba(0, 0, 0, 0.3)",
+         zIndex: 1000
+       }}>
+      🚀 KJ Demo Lab
+    </a>
+
     <div className="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600 text-white p-6">
       {/* Header */}
       <header className="text-center mb-10">
@@ -117,5 +138,6 @@ export default function App() {
         © {new Date().getFullYear()} KJ Demo Lab - Length Converter — Side Hustle Project
       </footer>
     </div>
+  </>
   );
 }
