@@ -114,7 +114,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="mt-16 text-center text-sm text-white/80">
-        © {new Date().getFullYear()} Length Converter — Side Hustle Project
+        © {new Date().getFullYear()} KJ Demo Lab - Length Converter — Side Hustle Project
       </footer>
     </div>
   );
